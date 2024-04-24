@@ -103,3 +103,9 @@ Premium Southwest Salad with Grilled chicken was the healthiest food item in the
 However, the predicted unhealthiest food item is different from actual one.
 LightGBM predicted the composite score based on a different scale of varying importance for the 12 predictor variables, in comparison to the weights that was assigned when feature engineering the weighted composite score earlier on.
 It can be deduced that the LightGBM model's predicted composite scoring system is much more competitive and harsher, by comparing the number of unique values of the predicted weighted score against the number of unique values of the actual weighted score. This ensures there is more variability in weighted composite score
+
+## What did we learn?
+- Multicollinearity
+- Plotly
+- LightGBM
+- 
