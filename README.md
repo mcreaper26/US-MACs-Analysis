@@ -108,4 +108,31 @@ It can be deduced that the LightGBM model's predicted composite scoring system i
 - Multicollinearity
 - Plotly
 - LightGBM
-- 
+
+
+# References
+
+https://www.mdanderson.org/publications/focused-on-health/what-are-macronutrients-.h15-1593780.html#:~:text=Carbohydrates%2C%20fat%20and%20protein%20are,Anderson%20Wellness%20Dietitian%20Lindsey%20Wohlford.
+
+https://www.hsph.harvard.edu/nutritionsource/carbohydrates/#:~:text=The%20most%20common%20and%20abundant,bodily%20functions%20and%20physical%20activity.
+
+https://www.healthhub.sg/live-healthy/why_protein_is_important#:~:text=Myth%20%232%20Protein%20is%20more%20important%20than%20carbs&text=Friends%20might%20even%20urge%20us,key%20function%20in%20our%20body.
+
+For Data cleaning & manipulation:
+For Artificial Sweeteners:
+Sugar Substitutes: What You Should Know (massgeneral.org)
+Artificial sugars may raise blood sugar - Harvard Health
+For coffee’s half-life:
+Pharmacology of Caffeine - Caffeine for the Sustainment of Mental Task Performance - NCBI Bookshelf (nih.gov)
+For daily amount of sugar for men and women:
+How much sugar is too much? | American Heart Association
+
+
+
+In problem statement - Fryar, C. D., Carroll, M. D., & Afful, J. (2021, February 8). Products - health e stats - prevalence of overweight, obesity, and extreme obesity among adults aged 20 and over: United States, 1960–1962 through 2017–2018. Centers for Disease Control and Prevention.) https://www.cdc.gov/nchs/data/hestat/obesity-adult-17-18/obesity-adult.htm
+Visualisation showcase to support prob statement, bar charts - Washington State Department of Social and Health Services (.gov). (n.d.). Reading food nutrition labels. Washington State Department of Social and Health Services (.gov). https://www.dshs.wa.gov/sites/default/files/ALTSA/stakeholders/documents/duals/toolkit/Reading%20Food%20Nutrition%20Labels.pdf
+Problems with portion sizes - Lamour, J. (2023, September 12). McDonald’s is phasing out self-serve soda stations - here’s why. TODAY.com. https://www.today.com/food/restaurants/mcdonalds-phasing-out-self-serve-beverage-stations-rcna104432 https://www.today.com/food/restaurants/mcdonalds-phasing-out-self-serve-beverage-stations-rcna104432
+Problems with portion size - Ponthieux, T. (2022, August 31). US vs Japan McDonald’s. Sugoi Mart by Japan Crate. https://sugoimart.com/blogs/sugoi-mart-blog/us-vs-japan-mcdonalds
+Problems with portion size - Nutrition list: Menu: Scale for good: マクドナルド公式. McDonalds Japan. ( Idk how cite )  https://www.mcdonalds.co.jp/en/quality/allergy_Nutrition/nutrient/
+Problems with portion size - National Institute of Health and Nutrition. (n.d.). Body weight status of Japanese. NIBIOHN. https://www.nibiohn.go.jp/eiken/kenkounippon21/download_files/other/document_en_02.pdf
+
