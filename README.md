@@ -5,7 +5,7 @@ Our Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelli
 
 A full breakdown of US Macdonald's menu to recommend better food options to US consumers, amidst rising obesity rates.
 
-
+# Contents in our Juptyer Notebook
 Problem Statement and Background Information
 
 Introduction to dataset
@@ -38,8 +38,14 @@ Feature Engineering
 
 Machine Learning
 
-Isolation Forest
+# Contributors
+@mcreaper26 - 
+@jolieetan - 
+@
 
-Multivariate Linear Regression Model
 
-Gradient Boosting Machine
+# Problem Definition
+
+# AI models used
+
+# Conclusion
