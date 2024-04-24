@@ -62,3 +62,59 @@ There are 260 different food items of varying serving sizes in US Mcdonald's Men
 - Apple Slices is a healthy snack/side as it has no fats and sodium even though it has no protein
 - Chicken McNuggets, French Fries & Hash Brown have zero sugar (They tend to have high fats and are highly processed and also keep in mind that this is without any condiments)
 - Side Salad has zero fats
+
+## Food Items with extremely high nutrient values
+121 food items out of 260 hit the daily value of certain nutrients required (not advisable to hit 100% in one meal), which is roughly half of the menu.
+
+## Accuracy of calories given
+There is some discrepancy between the calories given and calculated calories. Discrepancies were observed, attributable to factors such as fibre content, sugar alcohols, and rounding rules, emphasising the need for precise nutritional information. 
+
+## Calorie Density Finder
+Desserts have the highest calorie density, followed by Breakfast and then Beef & Pork. Desserts have a high variance, followed by Breakfast and then Beef & Pork. This means, in general, when a customer chooses Beef & Pork, there is a high chance that the food item contains lots of calories but should a customer choose Desserts, there is small chance that the food item has even more calories than the Beef & Pork option.
+
+## Range of each nutrient across the whole menu
+As we can tell from above, many of the items on the menu contain high amounts of Sugars, Saturated Fats and proteins as the median values for these categories are relatively high, nearing 25% and above for a single food or drink item. The upper fence for Sugars and Saturated Fats exceeds 100% of the daily recommended value as well. Given that many Mcdonald's goers often order a set meal, it is highly likely for consumers to exceed their daily recommended intake for various nutrients in one sitting which may lead to several adverse effects on health on top of contributing to obesity.
+
+## Serving Size
+Thus, from the various graphs presented above we can confirm that generally, it's evident that there's a positive linear relationship between Calories and Serving Sizes across all categories, as indicated by the positive gradients of the linear regression lines. This suggests that larger serving sizes are associated with higher calorie counts. However, for certain food categories such as Breakfast, Beef and Pork and Chicken and Fish, the steeper gradients reveal a disproportionate increase in calories relative to serving size, because the increase in calories is higher than expected based on the increase in serving size. This implies that upsizing may lead to a significant rise in calorie intake, particularly for these categories. Thus, consumers should exercise caution and consider avoiding upsizing for certain food categories to manage their calorie consumption effectively.
+
+## Multicollinearity 
+we can tell that Saturated fats, proteins and carbohydrates have the highest correlation of 0.85, 0.79 and 0.78 respectively. This is consistent with the facts previously established as fats, proteins and carbohydrates are the biggest contributors to amount of calories present since each gram contains their respective amounts of calories. Thus, they have strong linear relationships with caloric content in the food and drink items.
+
+Other nutrients including Iron and Dietary fibre have moderate correlation to calories, with values of 0.64 and 0.54 respectively. Additionally, we can tell that Calcium, Sugars and Vitamin A have weak correlation to Calories, with values 0.43, 0.26 and 0.11 accordingly. This is because, generally, food containing more of such nutrients are food containing more fats, protein and carbohydrates. Hence, they are associated with higher caloric values, however, the contribution to calories from these nutrients are much less. Therefore, they still have a positive linear relationship with caloric content but a weak one.
+
+Lastly, we can also see that Vitamin C has a negative correlation with calories with value -0.07. This is because, generally, Mcdonald's foods that are higher in vitamin c are lower in calories. One notable example would be the apple slices sold in McDonald's which are high in vitamin C but low in calories.
+
+From this information, recommendations can be made to people struggling with obesity-related challenges to cut down on the intake of foods or drinks high in saturated fats, proteins and carbohydrates so as to cut down on calorie intake and risk of obesity.
+
+We can also tell Protein and sodium are highly positively related. This is likely due to most burgers and other meat options being seasoned with a lot of salt, leading to high sodium content. Sodium also has high collinearity with iron. Options with high iron include red meats and poultry, as explained above, such options are often high in sodium.
+
+Sodium and sugar have the largest negative correlation of -0.42. This may be because items generally contain high amounts of either sugar or salts, due to clash of flavours when both are added.
+
+Sodium and calcium have a very weak correlation of near 0, thus, are largely unrelated. This may be due to both items high in sodium such as Quarter pounders, and low in sodium, such as McFlurry having high calcium content.
+
+## Feature Engineering
+From the composite score, it can be deduced:
+Frappe Chocolate Chip (Large) is the least healthiest food in the entire menu.
+Premium Southwest Salad with Grilled Chicken is the most healthiest food in the entire menu.
+Using water as the baseline, since it has no nutrients with zero calories, it sets a composite score of 6.76, which is pretty accurate as it is a healthy choice of beverage that can be consumed in large amounts.
+
+## Isolation Forest
+Number of anomalous values: 34
+Number of non-anomalous values: 226
+Total Number of Values: 260
+
+## Multivariate Linear Regression
+Looking at the coefficients of the predictors of the linear regression model.
+
+We can tell that Trans Fats has the largest effect on the weighted composite score followed by Sodium then Dietary Fibre and Protein accordingly due to the relatively large magnitudes of the coefficients of these predictors as seen from the linear regression model.
+
+The predicted coefficients for the factor of Trans Fat and Protein is consistent with weights allocated while Sodium and Dietary Fibre is predicted to be slightly higher than allocated.
+
+## Gradient Boosting Machine
+
+It helps to predict weighted composite score
+Premium Southwest Salad with Grilled chicken was the healthiest food item in the whole menu.
+However, the predicted unhealthiest food item is different from actual one.
+LightGBM predicted the composite score based on a different scale of varying importance for the 12 predictor variables, in comparison to the weights that was assigned when feature engineering the weighted composite score earlier on.
+It can be deduced that the LightGBM model's predicted composite scoring system is much more competitive and harsher, by comparing the number of unique values of the predicted weighted score against the number of unique values of the actual weighted score. This ensures there is more variability in weighted composite score
