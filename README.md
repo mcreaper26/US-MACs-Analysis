@@ -55,3 +55,10 @@ Gradient Boosting Machine:
 - LightGBM
 
 # Conclusion
+There are 260 different food items of varying serving sizes in US Mcdonald's Menu.
+
+## Food Items with zero nutrient values
+
+- Apple Slices is a healthy snack/side as it has no fats and sodium even though it has no protein
+- Chicken McNuggets, French Fries & Hash Brown have zero sugar (They tend to have high fats and are highly processed and also keep in mind that this is without any condiments)
+- Side Salad has zero fats
