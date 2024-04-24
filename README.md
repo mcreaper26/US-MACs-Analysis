@@ -33,7 +33,9 @@ Machine Learning
 
 # Contributors
 @mcreaper26 - Data Extraction, Data Cleaning and Manipulation, Feature Engineering, Gradient Boosting Machine
-@jolieetan - Data Visualisation, Multivariate Linear Regression, 
+
+@jolieetan - Data Visualisation, Multivariate Linear Regression
+
 @jiaqie - Data Visualisation, Isolation Forest
 
 
