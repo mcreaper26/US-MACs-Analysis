@@ -133,7 +133,7 @@ In problem statement - Fryar, C. D., Carroll, M. D., & Afful, J. (2021, February
 
 Visualisation showcase to support prob statement, bar charts - Washington State Department of Social and Health Services (.gov). (n.d.). Reading food nutrition labels. Washington State Department of Social and Health Services (.gov). https://www.dshs.wa.gov/sites/default/files/ALTSA/stakeholders/documents/duals/toolkit/Reading%20Food%20Nutrition%20Labels.pdf
 
-Problems with portion sizes - Lamour, J. (2023, September 12). McDonald’s is phasing out self-serve soda stations - here’s why. TODAY.com. https://www.today.com/food/restaurants/mcdonalds-phasing-out-self-serve-beverage-stations-rcna104432 https://www.today.com/food/restaurants/mcdonalds-phasing-out-self-serve-beverage-stations-rcna104432
+Problems with portion sizes - Lamour, J. (2023, September 12). McDonald’s is phasing out self-serve soda stations - here’s why. TODAY.com. https://www.today.com/food/restaurants/mcdonalds-phasing-out-self-serve-beverage-stations-rcna104432 
 
 Problems with portion size - Ponthieux, T. (2022, August 31). US vs Japan McDonald’s. Sugoi Mart by Japan Crate. https://sugoimart.com/blogs/sugoi-mart-blog/us-vs-japan-mcdonalds
 
