@@ -12,31 +12,25 @@ Introduction to dataset
 
 Data Cleaning and Manipulation
 
-Food Items with zero nutrient values
-
-Food Items with extremely high nutrient values
-
-Accuracy of calories given
-
-Conversion of imperial units to metric units
+- Food Items with zero nutrient values
+- Food Items with extremely high nutrient values
+- Accuracy of calories given
+- Conversion of imperial units to metric units
 
 Data Visualisation
-
-Density of calories and macronutrients for each food item
-
-Range of nutrients across the menu
-
-Range of calories by food category
-
-Top 5 food items with the highest or lowest nutrient across the whole menu
-
-Serving Size Problem
-
-Multicollinearity of variables
+- Density of calories and macronutrients for each food item
+- Range of nutrients across the menu
+- Range of calories by food category
+- Top 5 food items with the highest or lowest nutrient across the whole menu
+- Serving Size Problem
+- Multicollinearity of variables
 
 Feature Engineering
 
 Machine Learning
+- Isolation Forest
+- Multivariate Linear Regression
+- Gradient Boosting Machine
 
 # Contributors
 @mcreaper26 - 
