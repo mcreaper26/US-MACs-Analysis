@@ -94,11 +94,11 @@ Looking at the coefficients of the predictors of the linear regression model.
 
 We can tell that Trans Fats has the largest effect on the weighted composite score followed by Sodium then Dietary Fibre and Protein accordingly due to the relatively large magnitudes of the coefficients of these predictors as seen from the linear regression model.
 
-The predicted coefficients for the factor of Trans Fat and Protein is consistent with weights allocated while Sodium and Dietary Fibre is predicted to be slightly higher than allocated.
+The predicted coefficients for the factor of Trans Fat and Protein are consistent with weights allocated while Sodium and Dietary Fibre is predicted to be slightly higher than allocated.
 
 ## Gradient Boosting Machine
 
-It helps to predict weighted composite score
+It helps to predict the weighted composite score
 Premium Southwest Salad with Grilled chicken was the healthiest food item in the whole menu.
 However, the predicted unhealthiest food item is different from actual one.
 LightGBM predicted the composite score based on a different scale of varying importance for the 12 predictor variables, in comparison to the weights that was assigned when feature engineering the weighted composite score earlier on.
@@ -129,10 +129,15 @@ How much sugar is too much? | American Heart Association
 
 
 
-In problem statement - Fryar, C. D., Carroll, M. D., & Afful, J. (2021, February 8). Products - health e stats - prevalence of overweight, obesity, and extreme obesity among adults aged 20 and over: United States, 1960–1962 through 2017–2018. Centers for Disease Control and Prevention.) https://www.cdc.gov/nchs/data/hestat/obesity-adult-17-18/obesity-adult.htm
+In problem statement - Fryar, C. D., Carroll, M. D., & Afful, J. (2021, February 8). Products - health e stats - prevalence of overweight, obesity, and extreme obesity among adults aged 20 and over United States, 1960–1962 through 2017–2018. Centres for Disease Control and Prevention.) https://www.cdc.gov/nchs/data/hestat/obesity-adult-17-18/obesity-adult.htm
+
 Visualisation showcase to support prob statement, bar charts - Washington State Department of Social and Health Services (.gov). (n.d.). Reading food nutrition labels. Washington State Department of Social and Health Services (.gov). https://www.dshs.wa.gov/sites/default/files/ALTSA/stakeholders/documents/duals/toolkit/Reading%20Food%20Nutrition%20Labels.pdf
+
 Problems with portion sizes - Lamour, J. (2023, September 12). McDonald’s is phasing out self-serve soda stations - here’s why. TODAY.com. https://www.today.com/food/restaurants/mcdonalds-phasing-out-self-serve-beverage-stations-rcna104432 https://www.today.com/food/restaurants/mcdonalds-phasing-out-self-serve-beverage-stations-rcna104432
+
 Problems with portion size - Ponthieux, T. (2022, August 31). US vs Japan McDonald’s. Sugoi Mart by Japan Crate. https://sugoimart.com/blogs/sugoi-mart-blog/us-vs-japan-mcdonalds
-Problems with portion size - Nutrition list: Menu: Scale for good: マクドナルド公式. McDonalds Japan. ( Idk how cite )  https://www.mcdonalds.co.jp/en/quality/allergy_Nutrition/nutrient/
+
+Problems with portion size - Nutrition list: Menu: Scale for good: マクドナルド公式. McDonalds Japan. https://www.mcdonalds.co.jp/en/quality/allergy_Nutrition/nutrient/
+
 Problems with portion size - National Institute of Health and Nutrition. (n.d.). Body weight status of Japanese. NIBIOHN. https://www.nibiohn.go.jp/eiken/kenkounippon21/download_files/other/document_en_02.pdf
 
