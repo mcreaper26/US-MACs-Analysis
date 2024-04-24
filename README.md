@@ -81,18 +81,6 @@ Thus, from the various graphs presented above we can confirm that generally, it'
 ## Multicollinearity 
 we can tell that Saturated fats, proteins and carbohydrates have the highest correlation of 0.85, 0.79 and 0.78 respectively. This is consistent with the facts previously established as fats, proteins and carbohydrates are the biggest contributors to amount of calories present since each gram contains their respective amounts of calories. Thus, they have strong linear relationships with caloric content in the food and drink items.
 
-Other nutrients including Iron and Dietary fibre have moderate correlation to calories, with values of 0.64 and 0.54 respectively. Additionally, we can tell that Calcium, Sugars and Vitamin A have weak correlation to Calories, with values 0.43, 0.26 and 0.11 accordingly. This is because, generally, food containing more of such nutrients are food containing more fats, protein and carbohydrates. Hence, they are associated with higher caloric values, however, the contribution to calories from these nutrients are much less. Therefore, they still have a positive linear relationship with caloric content but a weak one.
-
-Lastly, we can also see that Vitamin C has a negative correlation with calories with value -0.07. This is because, generally, Mcdonald's foods that are higher in vitamin c are lower in calories. One notable example would be the apple slices sold in McDonald's which are high in vitamin C but low in calories.
-
-From this information, recommendations can be made to people struggling with obesity-related challenges to cut down on the intake of foods or drinks high in saturated fats, proteins and carbohydrates so as to cut down on calorie intake and risk of obesity.
-
-We can also tell Protein and sodium are highly positively related. This is likely due to most burgers and other meat options being seasoned with a lot of salt, leading to high sodium content. Sodium also has high collinearity with iron. Options with high iron include red meats and poultry, as explained above, such options are often high in sodium.
-
-Sodium and sugar have the largest negative correlation of -0.42. This may be because items generally contain high amounts of either sugar or salts, due to clash of flavours when both are added.
-
-Sodium and calcium have a very weak correlation of near 0, thus, are largely unrelated. This may be due to both items high in sodium such as Quarter pounders, and low in sodium, such as McFlurry having high calcium content.
-
 ## Feature Engineering
 From the composite score, it can be deduced:
 Frappe Chocolate Chip (Large) is the least healthiest food in the entire menu.
