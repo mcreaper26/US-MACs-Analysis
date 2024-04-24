@@ -6,7 +6,7 @@ These alarming statistics pushed our team to undertake this project with the obj
 With the knowledge of the various tiers on each food and drink item, consumers would be educated on the nutritional value of each item. Consumers would be empowered to make well considered choices, pick items that would be better able to cater to their daily requirements and goals, ultimately combating obesity.
 
 # Objective of our project
-Our Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) focuses on the US McDonald's menu and its associated nutritional values. The dataset used is from https://www.kaggle.com/datasets/mcdonalds/nutrition-facts. It includes a full breakdown and analysis of US Macdonald's menu and its nutritional data to recommend better food options to US consumers, amidst rising obesity rates.
+Our Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) focuses on the US McDonald's menu and its associated nutritional values. It includes a full breakdown and analysis of US Macdonald's menu and its nutritional data to recommend better food options to US consumers, amidst rising obesity rates. The dataset used is from https://www.kaggle.com/datasets/mcdonalds/nutrition-facts. 
 
 # Contents in our Juptyer Notebook
 Problem Statement and Background Information
